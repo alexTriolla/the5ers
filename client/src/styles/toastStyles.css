@@ -1,0 +1,37 @@
+.Toastify__toast-container {
+  width: auto !important;
+  max-width: 400px !important;
+}
+
+.custom-toast-container {
+  /* Remove top positioning */
+  background-color: transparent !important; /* Make container transparent */
+}
+
+.custom-toast {
+  background-color: #1c1e24 !important; /* Dark background */
+  color: #c1c4d6 !important; /* Light text color */
+  border-radius: 10px !important;
+  padding: 15px !important; /* Increased padding for better appearance */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
+  margin-bottom: 1rem !important; /* Add space between toasts */
+}
+
+.custom-toast .Toastify__toast-body {
+  margin: 0 !important; /* Remove default margins */
+}
+
+.custom-toast .MuiButton-root {
+  color: #0a73ff !important; /* Custom button color */
+  margin-left: 10px !important; /* Add some space between text and button */
+}
+
+/* Style the close button */
+.custom-toast .Toastify__close-button {
+  color: #c1c4d6 !important;
+  opacity: 0.7;
+}
+
+.custom-toast .Toastify__close-button:hover {
+  opacity: 1;
+}
